@@ -1,0 +1,167 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.geethu.myapplication.Clues">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp">
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLUE-1"
+            android:id="@+id/clue1"
+            android:checked="true"
+            android:onClick="password"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="25dp"
+            android:textAppearance="@android:color/tab_indicator_text"
+            android:textColorHighlight="#fffffe91" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLUE-2"
+            android:id="@+id/clue2"
+            android:onClick="password2"
+            android:checked="true"
+            android:layout_below="@+id/clue1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="25dp"
+            android:textAppearance="@android:color/tab_indicator_text"
+            android:textColorHighlight="#fffffe91" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLUE-3"
+            android:id="@+id/clue3"
+            android:checked="true"
+            android:onClick="password3"
+            android:layout_below="@+id/clue2"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/clue2"
+            android:textSize="25dp"
+            android:textAppearance="@android:color/tab_indicator_text"
+            android:textColorHighlight="#fffffe91" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLUE-4"
+            android:id="@+id/clue4"
+            android:checked="true"
+            android:onClick="password4"
+            android:layout_below="@+id/clue3"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/clue3"
+            android:textSize="25dp"
+            android:textAppearance="@android:color/tab_indicator_text"
+            android:textColorHighlight="#fffffe91" />
+
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLUE-5"
+            android:id="@+id/clue5"
+            android:onClick="password7"
+            android:layout_below="@+id/clue6"
+            android:checked="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/clue6"
+            android:textSize="25dp"
+            android:textAppearance="@android:color/tab_indicator_text"
+            android:textColorHighlight="#fffffe91" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLUE-6"
+            android:id="@+id/clue6"
+            android:layout_below="@+id/clue7"
+            android:onClick="password8"
+            android:checked="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="25dp"
+            android:textAppearance="@android:color/tab_indicator_text"
+            android:textColorHighlight="#fffffe91" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLUE-7"
+            android:id="@+id/clue7"
+            android:layout_below="@+id/clue8"
+            android:checked="true"
+            android:onClick="password9"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/clue8"
+            android:textSize="25dp"
+            android:textAppearance="@android:color/tab_indicator_text"
+            android:textColorHighlight="#fffffe91" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLUE-8"
+            android:id="@+id/clue8"
+            android:layout_below="@+id/clue9"
+            android:checked="true"
+            android:onClick="password10"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/clue9"
+            android:textSize="25dp"
+            android:textAppearance="@android:color/tab_indicator_text"
+            android:textColorHighlight="#fffffe91" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLUE-9"
+            android:id="@+id/clue9"
+            android:onClick="password11"
+            android:layout_below="@+id/clue10"
+            android:checked="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/clue10"
+            android:textSize="25dp"
+            android:textAppearance="@android:color/tab_indicator_text"
+            android:textColorHighlight="#fffffe91" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLUE-10"
+            android:id="@+id/clue10"
+            android:layout_below="@+id/clue11"
+            android:checked="true"
+            android:onClick="password12"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/clue11"
+            android:textSize="25dp"
+            android:textAppearance="@android:color/tab_indicator_text"
+            android:textColorHighlight="#fffffe91" />
+
+
+        </RadioGroup>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.geethu.myapplication.Devolopers"
+    android:background="@drawable/astartpage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Mohit Reddy"
+        android:id="@+id/text_mohit"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="30dp"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Computer Engineering"
+        android:id="@+id/mohit_branch"
+        android:layout_below="@+id/text_mohit"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/text_mohit"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Ananda Rao"
+        android:id="@+id/text_ananda"
+        android:layout_below="@+id/mohit_branch"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="30dp"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Computer Engineering"
+        android:id="@+id/ananda_branch"
+        android:layout_below="@+id/text_ananda"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sandeep N Menon"
+        android:id="@+id/text_sandeep"
+        android:textSize="30dp"
+        android:layout_below="@+id/ananda_branch"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Computer Engineering"
+        android:id="@+id/sandeep_branch"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/text_sandeep"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Vineeth Reddy"
+        android:id="@+id/text_vineeth"
+        android:layout_below="@+id/sandeep_branch"
+        android:layout_alignParentStart="true"
+        android:textSize="30dp"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Computer Engineering"
+        android:id="@+id/vineeth_branch"
+        android:layout_below="@+id/text_vineeth"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffffff" />
+
+</RelativeLayout>

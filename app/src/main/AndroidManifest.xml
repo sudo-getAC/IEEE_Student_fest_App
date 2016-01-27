@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.geethu.myapplication" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DisplayContent"
+            android:label="@string/title_activity_display_content"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.geethu.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Displaycontent2"
+            android:label="@string/title_activity_displaycontent2" >
+        </activity>
+        <activity
+            android:name=".Devolopers"
+            android:label="@string/title_activity_devolopers"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.geethu.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Maps"
+            android:label="@string/title_activity_maps" >
+        </activity>
+        <activity
+            android:name=".changeToMap"
+            android:label="@string/title_activity_change_to_map" >
+        </activity>
+        <activity
+            android:name=".Clues"
+            android:label="@string/title_activity_clues" >
+        </activity>
+        <activity
+            android:name=".Clue1"
+            android:label="@string/title_activity_clue1" >
+        </activity>
+        <activity
+            android:name=".Clue2"
+            android:label="@string/title_activity_clue2" >
+        </activity>
+        <activity
+            android:name=".Password1"
+            android:label="@string/title_activity_password1" >
+        </activity>
+        <activity
+            android:name=".password2"
+            android:label="@string/title_activity_password2" >
+        </activity>
+        <activity
+            android:name=".Clue3"
+            android:label="@string/title_activity_clue3" >
+        </activity>
+        <activity
+            android:name=".password3"
+            android:label="@string/title_activity_password3" >
+        </activity>
+        <activity
+            android:name=".Clue4"
+            android:label="@string/title_activity_clue4" >
+        </activity>
+        <activity
+            android:name=".password4"
+            android:label="@string/title_activity_password4" >
+        </activity>
+        <activity
+            android:name=".Clue5"
+            android:label="@string/title_activity_clue5" >
+        </activity>
+        <activity
+            android:name=".password5"
+            android:label="@string/title_activity_password5" >
+        </activity>
+        <activity
+            android:name=".Clue6"
+            android:label="@string/title_activity_clue6" >
+        </activity>
+        <activity
+            android:name=".password6"
+            android:label="@string/title_activity_password6" >
+        </activity>
+        <activity
+            android:name=".Clue7"
+            android:label="@string/title_activity_clue7" >
+        </activity>
+        <activity
+            android:name=".password7"
+            android:label="@string/title_activity_password7" >
+        </activity>
+        <activity
+            android:name=".Clue8"
+            android:label="@string/title_activity_clue8" >
+        </activity>
+        <activity
+            android:name=".password8"
+            android:label="@string/title_activity_password8" >
+        </activity>
+        <activity
+            android:name=".Clue9"
+            android:label="@string/title_activity_clue9" >
+        </activity>
+        <activity
+            android:name=".password9"
+            android:label="@string/title_activity_password9" >
+        </activity>
+        <activity
+            android:name=".Clue10"
+            android:label="@string/title_activity_clue10" >
+        </activity>
+        <activity
+            android:name=".password10"
+            android:label="@string/title_activity_password10" >
+        </activity>
+        <activity
+            android:name=".Clue11"
+            android:label="@string/title_activity_clue11" >
+        </activity>
+        <activity
+            android:name=".password11"
+            android:label="@string/title_activity_password11" >
+        </activity>
+        <activity
+            android:name=".Clue12"
+            android:label="@string/title_activity_clue12" >
+        </activity>
+        <activity
+            android:name=".Password12"
+            android:label="@string/title_activity_password12" >
+        </activity>
+        <activity
+            android:name=".Clue13"
+            android:label="@string/title_activity_clue13" >
+        </activity>
+        <activity
+            android:name=".password13"
+            android:label="@string/title_activity_password13" >
+        </activity>
+    </application>
+
+</manifest>

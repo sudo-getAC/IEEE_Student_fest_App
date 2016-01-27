@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">IEEE</string>
+    <string name="title_activity_displaycontent2">Clue2</string>
+    <string name="title_activity_clue2">Clue2</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display_content">Treasure hunt</string>
+
+    <string name="title_activity_devolopers">Developers</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="title_activity_change_to_map">MAP</string>
+    <string name="title_activity_clues">Clues</string>
+    <string name="title_activity_clue1">Clue1</string>
+
+    <string name="title_activity_password1">Password1</string>
+    <string name="title_activity_password2">password2</string>
+    <string name="title_activity_clue3">Clue3</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_password3">password3</string>
+    <string name="title_activity_clue4">Clue4</string>
+    <string name="title_activity_password4">password4</string>
+    <string name="title_activity_clue5">Clue5</string>
+    <string name="title_activity_password5">password5</string>
+    <string name="title_activity_clue6">Clue6</string>
+    <string name="title_activity_password6">password6</string>
+    <string name="title_activity_clue7">Clue7</string>
+    <string name="title_activity_password7">password7</string>
+    <string name="title_activity_clue8">Clue8</string>
+    <string name="title_activity_password8">password8</string>
+    <string name="title_activity_clue9">Clue14</string>
+    <string name="title_activity_password9">password9</string>
+    <string name="title_activity_clue10">Clue15</string>
+    <string name="title_activity_password10">password10</string>
+    <string name="title_activity_clue11">Clue9</string>
+    <string name="title_activity_password11">password11</string>
+    <string name="title_activity_clue12">Clue10</string>
+    <string name="title_activity_password12">Password12</string>
+    <string name="title_activity_clue13">Clue13</string>
+    <string name="title_activity_password13">password13</string>
+</resources>
